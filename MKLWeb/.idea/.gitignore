@@ -1,0 +1,19 @@
+# Default ignored files
+<<<<<<< HEAD
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+=======
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+>>>>>>> origin/master
+=======
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+>>>>>>> origin/master

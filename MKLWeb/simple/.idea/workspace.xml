@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b4fe92b-5715-4ad8-b701-fe546d96375a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Administrator\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qFtMwPzhbNRLK7sGqBsHnEqpnw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../IdeaWorkSpace/library-management-system" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.17931035" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kunka.simple.mapper" />
+      <recent name="com.kunka.simple.entity" />
+      <recent name="com.kunka.simple.service" />
+      <recent name="com.kunka.simple.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\si-huo1\高校洗衣机自助系统(800)\simple\src\main\resources\static\pageJS\user" />
+      <recent name="C:\si-huo1\高校洗衣机自助系统(800)\simple\src\main\resources\static\pages\user" />
+      <recent name="C:\si-huo1\高校洗衣机自助系统(800)\simple\src\main\resources\static\pageJS\paymentInfo" />
+      <recent name="C:\si-huo1\高校洗衣机自助系统(800)\simple\src\main\resources\static\pages\paymentInfo" />
+      <recent name="C:\si-huo1\高校洗衣机自助系统(800)\simple\src\main\resources\static\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SimpleApplication (1)">
+    <configuration name="QRCodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QRCodeUtils" />
+      <module name="simple" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleApplicationTests.sendSimpleMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kunka.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kunka.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.kunka.simple.SimpleApplicationTests" />
+      <option name="METHOD_NAME" value="sendSimpleMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="simple" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.izejs.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.izejs.simple.SimpleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simple" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kunka.simple.SimpleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SimpleApplication (1)" />
+        <item itemvalue="Application.QRCodeUtils" />
+        <item itemvalue="JUnit.SimpleApplicationTests.sendSimpleMail" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b4fe92b-5715-4ad8-b701-fe546d96375a" name="Default Changelist" comment="" />
+      <created>1616687128094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616687128094</updated>
+      <workItem from="1616687129162" duration="26519000" />
+      <workItem from="1617007281592" duration="1833000" />
+      <workItem from="1618150361897" duration="23109000" />
+      <workItem from="1618388619377" duration="66184000" />
+      <workItem from="1619167588277" duration="5486000" />
+      <workItem from="1619252265782" duration="3341000" />
+      <workItem from="1619400334943" duration="647000" />
+      <workItem from="1619401179760" duration="260000" />
+      <workItem from="1619445884271" duration="5149000" />
+      <workItem from="1619918748506" duration="32346000" />
+      <workItem from="1620397700385" duration="1290000" />
+      <workItem from="1620401213306" duration="10243000" />
+      <workItem from="1620702529610" duration="1964000" />
+      <workItem from="1620790268991" duration="383000" />
+      <workItem from="1621242049374" duration="130000" />
+      <workItem from="1631153747990" duration="3375000" />
+      <workItem from="1631626741925" duration="1280000" />
+      <workItem from="1632065806023" duration="1320000" />
+      <workItem from="1632134526728" duration="1465000" />
+      <workItem from="1632407514475" duration="55000" />
+      <workItem from="1633162465445" duration="6820000" />
+      <workItem from="1633218464476" duration="594000" />
+      <workItem from="1633536518896" duration="34000" />
+      <workItem from="1634694729907" duration="875000" />
+      <workItem from="1636593488956" duration="1388000" />
+      <workItem from="1637650599181" duration="1224000" />
+      <workItem from="1637812924530" duration="600000" />
+      <workItem from="1637894851044" duration="634000" />
+      <workItem from="1637913322306" duration="683000" />
+      <workItem from="1639452653958" duration="900000" />
+      <workItem from="1643247262620" duration="4829000" />
+      <workItem from="1643267463507" duration="1053000" />
+      <workItem from="1643275803482" duration="144000" />
+      <workItem from="1643276203290" duration="937000" />
+      <workItem from="1643339682344" duration="185000" />
+      <workItem from="1643964423984" duration="15871000" />
+      <workItem from="1644395765267" duration="611000" />
+      <workItem from="1644400749278" duration="32000" />
+      <workItem from="1644477705991" duration="608000" />
+      <workItem from="1644483519297" duration="306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="147" y="66" key="DiffContextDialog" timestamp="1636594282066">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="147" y="66" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1636594282066" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1644400780768">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1644400780768" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1644399069675">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1644399069675" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1644399069675">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1644399069675" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1644399069675">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1644399069675" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1644399069675">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1644399069675" />
+    <state width="1493" height="213" key="GridCell.Tab.1.bottom" timestamp="1644399069676">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1644399069676" />
+    <state width="1493" height="213" key="GridCell.Tab.1.center" timestamp="1644399069676">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1644399069676" />
+    <state width="1493" height="213" key="GridCell.Tab.1.left" timestamp="1644399069675">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1644399069675" />
+    <state width="1493" height="213" key="GridCell.Tab.1.right" timestamp="1644399069676">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1644399069676" />
+    <state width="1492" height="248" key="GridCell.Tab.2.bottom" timestamp="1636594897273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="248" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1636594897273" />
+    <state width="1492" height="248" key="GridCell.Tab.2.center" timestamp="1636594897272">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="248" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1636594897272" />
+    <state width="1492" height="248" key="GridCell.Tab.2.left" timestamp="1636594897272">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="248" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1636594897272" />
+    <state width="1492" height="248" key="GridCell.Tab.2.right" timestamp="1636594897273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1492" height="248" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1636594897273" />
+    <state x="289" y="118" key="RollbackChangesDialog" timestamp="1636594283365">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="289" y="118" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1636594283365" />
+    <state x="333" y="169" width="600" height="538" key="find.popup" timestamp="1644223725422">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="333" y="169" width="600" height="538" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1644223725422" />
+  </component>
+</project>

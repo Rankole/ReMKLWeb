@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="loginHtml">
+<head>
+    <meta charset="utf-8">
+    <title>预约管理</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="/css/public.css" media="all"/>
+</head>
+<body class="childrenBody">
+<blockquote class="layui-elem-quote quoteBox">
+    <form class="layui-form" id="searchReservationListForm" lay-filter="searchReservationListForm">
+        <div class="layui-input-inline">
+            <div class="layui-form-item">
+                <label class="layui-form-label">品牌名称</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="brand" placeholder="请输入品牌名称"
+                           autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+            <div class="layui-input-inline">
+            <div class="layui-form-item">
+                <label class="layui-form-label">型号名称</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="brandType" placeholder="请输入型号名称"
+                           autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+            <div class="layui-input-inline">
+            <div class="layui-form-item">
+                <label class="layui-form-label">洗衣机编号</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="washingMachineNumber" placeholder="请输入洗衣机编号"
+                           autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+            <div class="layui-input-inline">
+            <div class="layui-form-item">
+                <label class="layui-form-label">状态</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="status" placeholder="请输入状态"
+                           autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <a class="layui-btn layui-btn-sm reservationListSearch">查询</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </form>
+</blockquote>
+<table id="reservationList" lay-filter="reservationList"></table>
+<script type="text/html" id="reservationListBar">
+    {{# if(d.status == 0){ }}
+    <button type="button" class="layui-btn layui-btn-xs layui-btn-normal" lay-event="reservation_use">使用</button>
+    {{# } }}
+    <button type="button" class="layui-btn layui-btn-xs layui-btn-normal" lay-event="reservation_detail">详情</button>
+</script>
+<script type="text/javascript" src="/layui/layui.js"></script>
+<script type="text/javascript" src="/js/public.js"></script>
+<script type="text/javascript" src="/pageJS/reservation/reservationList.js"></script>
+</body>
+</html>

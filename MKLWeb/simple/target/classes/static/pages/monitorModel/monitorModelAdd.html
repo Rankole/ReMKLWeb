@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新增监测模型信息</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="/css/public.css" media="all"/>
+</head>
+<body>
+<div class="layui-iframe-form-div" style="margin: 10px 300px">
+    <form class="layui-form" lay-filter="monitorModelForm">
+        <input id="monitorModelId" class="hide">
+        <div class="layui-form-item">
+            <label class="layui-form-label">电池编号</label>
+            <div class="layui-input-block">
+                <input type="text" name="batteryId" required lay-verify="required" placeholder="请输入电池编号"
+                       autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">应用场景</label>
+            <div class="layui-input-block">
+                <input type="text" name="scenario" required lay-verify="required" placeholder="请输入应用场景"
+                       autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">ETU名称</label>
+            <div class="layui-input-block">
+                <input type="text" name="etuName" required lay-verify="required" placeholder="请输入ETU名称"
+                       autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">电池规格</label>
+            <div class="layui-input-block">
+                <input type="text" name="batterySize" required  placeholder="请输入电池规格"
+                       autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">数据间隔</label>
+            <div class="layui-input-block">
+                <input type="text" name="dataInterval" required  placeholder="请输入数据间隔"
+                       autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">预警规则</label>
+            <div class="layui-input-block">
+                <input type="text" name="alarmRole" required  placeholder="请输入预警规则"
+                       autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">智能算法</label>
+            <div class="layui-input-block">
+                <input type="text" name="algorithms" required  placeholder="请输入智能算法"
+                       autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">状态</label>
+            <div class="layui-input-block">
+                <input type="text" name="state" required lay-verify="required" placeholder="请输入状态"
+                       autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button id="submitMonitorModel" class="layui-btn" lay-submit lay-filter="monitorModelAddSubmit">立即提交</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="/layui/layui.js"></script>
+<script type="text/javascript" src="/pageJS/monitorModel/monitorModelAdd.js"></script>
+</body>
+</html>

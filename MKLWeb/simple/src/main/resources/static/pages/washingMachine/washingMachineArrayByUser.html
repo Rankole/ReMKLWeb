@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="loginHtml">
+<head>
+    <meta charset="utf-8">
+    <title>洗衣机信息</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="/css/public.css" media="all"/>
+</head>
+<body class="childrenBody">
+<blockquote class="layui-elem-quote quoteBox">
+    <form class="layui-form" id="searchWashingMachineListForm" lay-filter="searchWashingMachineListForm">
+        <div class="layui-input-inline">
+            <div class="layui-form-item">
+                <label class="layui-form-label">品牌</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="brandName" placeholder="请输入品牌"
+                           autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+            <div class="layui-input-inline">
+            <div class="layui-form-item">
+                <label class="layui-form-label">型号</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="typeName" placeholder="请输入型号"
+                           autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+            <div class="layui-input-inline">
+            <div class="layui-form-item">
+                <label class="layui-form-label">编号</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="number" placeholder="请输入编号"
+                           autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+            <div class="layui-input-inline">
+            <div class="layui-form-item">
+                <label class="layui-form-label">状态</label>
+                <div class="layui-input-inline">
+                    <select name="status">
+                        <option value="">请选择状态</option>
+                        <option value="0">待使用</option>
+                        <option value="1">已预约</option>
+                        <option value="2">报修中</option>
+                        <option value="3">使用中</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <a class="layui-btn layui-btn-sm washingMachineListSearch">查询</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </form>
+</blockquote>
+<table id="washingMachineList" lay-filter="washingMachineList"></table>
+<script type="text/html" id="washingMachineListBar">
+    <button type="button" class="layui-btn layui-btn-xs layui-btn-normal" lay-event="washingMachine_detail">详情</button>
+</script>
+<script type="text/javascript" src="/layui/layui.js"></script>
+<script type="text/javascript" src="/js/public.js"></script>
+<script type="text/javascript" src="/pageJS/washingMachine/washingMachineArrayByUser.js"></script>
+</body>
+</html>

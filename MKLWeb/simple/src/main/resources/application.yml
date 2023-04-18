@@ -1,0 +1,48 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/xiyiji?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+        username: root
+        password: Mkl13705313268
+    mvc:
+        view:
+          prefix: /pages/
+          suffix: .html
+    profiles:
+        active: dev
+    # 设置热部署
+    devtools:
+      restart:
+          enabled: true
+          additional-paths: src/main/java
+          additional-exclude: WEB-INF/**
+    # 设置上传文件的大小限制
+    servlet:
+      multipart:
+          max-request-size: 100MB
+          max-file-size: 50MB
+    mail:
+        host: smtp.qq.com
+        username: 1819228294@qq.com
+        password: nfwyyisrxhdbieij
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
+                        required: true
+
+
+#mybatis配置控制台打印完整带参数SQL语句
+mybatis-plus:
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+# mapper.xml文件位置
+    mapper-locations: classpath:mapper/*.xml
+    global-config:
+            db-config:
+                id-type: auto
+
+server:
+    port: 8088
